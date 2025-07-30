@@ -676,18 +676,21 @@ const MedicalStore = () => {
               <div style={{
                 width: '80%',
                 height: '80%',
-                background: '#dbeafe',
+                //background: '#dbeafe',
+                backgroundImage: `url(${product.image})`,
                 borderRadius: '12px',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                color: '#3b82f6',
-                fontWeight: 'bold',
-                fontSize: '14px',
-                textAlign: 'center',
-                padding: '10px'
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat',
+                //color: '#3b82f6',
+                //fontWeight: 'bold',
+                //fontSize: '14px',
+                //textAlign: 'center',
               }}>
-                {product.name}
+{/*                 {product.name} */}
               </div>
               {product.isNew && <ProductBadge>NEW</ProductBadge>}
             </ProductImage>
