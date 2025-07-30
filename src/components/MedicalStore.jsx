@@ -497,7 +497,7 @@ const MedicalStore = () => {
         description: 'Comprehensive first aid kit with 150 pieces for all emergency needs',
         price: 49.99,
         rating: 4.8,
-        image: '/images/first aid.jpg',
+        image: '/images/aid.jpg',
         isNew: true,
         category: 'First Aid'
       },
