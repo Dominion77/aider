@@ -497,7 +497,7 @@ const MedicalStore = () => {
         description: 'Comprehensive first aid kit with 150 pieces for all emergency needs',
         price: 49.99,
         rating: 4.8,
-        image: 'first-aid-kit',
+        image: '/images/first aid.jpg',
         isNew: true,
         category: 'First Aid'
       },
@@ -507,7 +507,7 @@ const MedicalStore = () => {
         description: 'Fast and accurate digital thermometer with fever alarm',
         price: 19.99,
         rating: 4.5,
-        image: 'thermometer',
+        image: '/images/thermometer.jpg',
         category: 'Diagnostic'
       },
       {
@@ -516,7 +516,7 @@ const MedicalStore = () => {
         description: 'Automatic upper arm blood pressure monitor with large display',
         price: 59.99,
         rating: 4.7,
-        image: 'blood-pressure',
+        image: '/images/monitor.jpg',
         category: 'Monitoring'
       },
       {
@@ -525,7 +525,7 @@ const MedicalStore = () => {
         description: 'Fingertip pulse oximeter with OLED display for SpO2 and PR',
         price: 29.99,
         rating: 4.6,
-        image: 'oximeter',
+        image: '/images/oximeter.jpg',
         category: 'Monitoring'
       },
       {
@@ -534,7 +534,7 @@ const MedicalStore = () => {
         description: 'Elastic compression bandage for sprains and strains (3 pack)',
         price: 12.99,
         rating: 4.3,
-        image: 'bandage',
+        image: '/images/compression.jpg',
         category: 'Wound Care'
       },
       {
@@ -543,7 +543,7 @@ const MedicalStore = () => {
         description: 'Latex-free disposable gloves for medical use',
         price: 14.99,
         rating: 4.4,
-        image: 'gloves',
+        image: '/images/gloves.jpg',
         category: 'Protective'
       },
       {
@@ -552,7 +552,7 @@ const MedicalStore = () => {
         description: 'Flexible cold therapy pack for injuries and pain relief',
         price: 8.99,
         rating: 4.2,
-        image: 'cold-pack',
+        image: '/images/cold-pack.jpg',
         category: 'Therapy'
       },
       {
@@ -561,7 +561,7 @@ const MedicalStore = () => {
         description: 'Dual-head stethoscope for accurate auscultation',
         price: 39.99,
         rating: 4.9,
-        image: 'stethoscope',
+        image: '/images/stethoscope.jpg',
         category: 'Diagnostic'
       }
     ];
