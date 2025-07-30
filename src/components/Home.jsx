@@ -118,7 +118,7 @@ const Home = () => {
       </HeroSection>
 
       <FeaturesGrid>
-        <FeatureCard to="/store">
+        <FeatureCard>
           <div className="icon">
             <FiShoppingCart />
           </div>
@@ -127,7 +127,7 @@ const Home = () => {
           <Link to="/store" className="btn-primary">Browse Store</Link>
         </FeatureCard>
 
-        <FeatureCard to="/booking">
+        <FeatureCard>
           <div className="icon">
             <FiCalendar />
           </div>
@@ -136,7 +136,7 @@ const Home = () => {
           <Link to="/booking" className="btn-primary">Find Doctors</Link>
         </FeatureCard>
 
-        <FeatureCard to="/surgery-assistant">
+        <FeatureCard>
           <div className="icon">
             <FiScissors />
           </div>
