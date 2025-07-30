@@ -500,19 +500,15 @@ const BookingSystem = () => {
             <DoctorImage>
               
               <div style={{
-                width: '120px',
-                height: '120px',
-                borderRadius: '50%',
-                background: '#93c5fd',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                color: 'white',
-                fontSize: '40px',
-                fontWeight: 'bold'
+                width: '220px',
+                height: '200px',
+                backgroundImage: `url(${doctor.image})`,
+                backgroundSize: 'contain',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat'
               }}>
-                <img src= {doctor.image}/>
-                {doctor.image}
+{/*                 <img src= {doctor.image}/>
+                {doctor.image} */}
               </div>
             </DoctorImage>
             <DoctorDetails>
