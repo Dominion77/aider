@@ -49,7 +49,7 @@ const FeaturesGrid = styled.div`
   margin-bottom: 60px;
 `;
 
-const FeatureCard = styled(Link)`
+const FeatureCard = styled.div`
   background: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -111,7 +111,7 @@ const FeatureCard = styled(Link)`
 const Home = () => {
   return (
     <>
-      <HeroSection className="glass">
+      <HeroSection>
         <h1>Welcome to Aider</h1>
         <p>Your complete medical companion - combining medical supplies, doctor bookings, and surgical assistance in one seamless platform.</p>
         <Link to="/store" className="btn-primary" style={{ background: 'white', color: '#2563eb' }}>Get Started</Link>
